@@ -9,11 +9,11 @@ public abstract class Pessoa {
 	private String nome;
 	private int rg;
 	private int cpf;
-	private Date dataNascimento;
+	private int dataNascimento;
 	
 // Metodo construtor (Cadastrar)
 	
-	public Pessoa(String nome, int rg, int cpf, Date dataNascimento) {
+	public Pessoa(String nome, int rg, int cpf, int dataNascimento) {
 	super();
 	this.nome = nome;
 	this.rg = rg;
@@ -42,10 +42,10 @@ public abstract class Pessoa {
 	public void setCpf(int cpf) {
 		this.cpf = cpf;
 	}
-	public Date getDataNascimento() {
+	public int getDataNascimento() {
 		return dataNascimento;
 	}
-	public void setDataNascimento(Date dataNascimento) {
+	public void setDataNascimento(int dataNascimento) {
 		this.dataNascimento = dataNascimento;
 	}
 	

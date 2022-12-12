@@ -68,4 +68,19 @@ public class Carro extends Veiculo {
 	public void filtarQuilometragem () {
 		
 	}
+// Metodo teste
+
+	public void ApresentarCarro() {
+			System.out.print("========================== Lista de Carros===================================\n");
+			System.out.print("TIPO: " + this.getTipoVeiculo() + "\n");
+			System.out.print("MARCA: " + this.getMarca() + "\n");
+			System.out.print("MODELO: " + this.getModelo() + "\n");
+			System.out.print("ANO: " + this.getAno() + "\n");
+			System.out.print("VALOR " + this.getValor()  +"\n");
+			System.out.print("CONDIÇÃO: " + this.getCondicao() + "\n");
+			System.out.print("DESCRIÇÃO: " + this.getDescricao() + "\n");
+			System.out.print("COR: " + this.getCor() + "\n");
+			System.out.print("CAMBIO: " + this.getCambio() + "\n");
+			System.out.print("QUILOMETRAGEM: " + this.getQuilometragem() + "\n\n");
+		}
 }

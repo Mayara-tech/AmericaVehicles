@@ -14,7 +14,7 @@ public class Cliente extends Pessoa {
 	
 // Metodo construtor (Cadastrar Cliente) 
 	
-	public Cliente(String nome, int rg, int cpf, Date dataNascimento, String profissao, Float renda, String estadoCivil,
+	public Cliente(String nome, int rg, int cpf, int dataNascimento, String profissao, Float renda, String estadoCivil,
 			String nomeConjuge, String nomeMae) {
 		super(nome, rg, cpf, dataNascimento);
 		this.profissao = profissao;
@@ -82,6 +82,20 @@ public class Cliente extends Pessoa {
 	}
 	public void ComprarVeiculo () {
 		
+	}
+
+// Metodo teste
+	public void ApresentarCliente() {
+		System.out.print("========================== Lista de Clientes===================================\n");
+		System.out.print("NOME: " + this.getNome() + "\n");
+		System.out.print("RG: " + this.getRg() + "\n");
+		System.out.print("CPF: " + this.getCpf() + "\n");
+		System.out.print("DATA NASCIMENTO: " + this.getDataNascimento() + "\n");
+		System.out.print("PROFISSÃO: " + this.getProfissao()  +"\n");
+		System.out.print("RENDA: " + this.getRenda() + "\n");
+		System.out.print("ESTADO CIVIL: " + this.getEstadoCivil() + "\n");
+		System.out.print("NOME CONJUGE: " + this.getNomeConjuge() + "\n");
+		System.out.print("NOME DA MAÊ: " + this.getNomeMae() + "\n\n");
 	}
 }
 

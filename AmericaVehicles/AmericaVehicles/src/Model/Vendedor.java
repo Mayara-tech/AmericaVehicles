@@ -13,7 +13,7 @@ public class Vendedor extends Pessoa {
 	
 // Metodo construtor (cadastrar vendedor)
 	
-	public Vendedor(String nome, int rg, int cpf, Date dataNascimento, String email, String nacionalidade,
+	public Vendedor(String nome, int rg, int cpf, int dataNascimento, String email, String nacionalidade,
 			String naturalidade) {
 		super(nome, rg, cpf, dataNascimento);
 		this.email = email;
