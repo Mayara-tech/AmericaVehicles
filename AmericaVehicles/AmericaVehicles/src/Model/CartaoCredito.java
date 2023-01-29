@@ -53,13 +53,5 @@ public class CartaoCredito {
 				
 	}
 
-// Metodos Simulador e Comprar () {
-	
-	public void simularcompraCartao () {
-		
-	}
-	public void comprarCartao ( ) {
-		
-	}
 
 }

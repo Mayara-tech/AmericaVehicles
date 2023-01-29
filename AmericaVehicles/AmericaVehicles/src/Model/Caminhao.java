@@ -62,13 +62,5 @@ public class Caminhao extends Veiculo {
 	public void editarVeiculo () {
 				
 	}
-	
-// Metodos de filtragem () {
-	
-	public void filtrarCombustivel () {
-		
-	}
-	public void filtrarTipoCaminhao () {
-		
-	}
+
 }

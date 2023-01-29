@@ -1,16 +1,17 @@
 package Model;
+import Model.*;
 
 public class Carro extends Veiculo {
-	
-// Atributos
-	
+
+	// Atributos
+
 	private String descricao;
 	private String cor;
 	private String cambio;
 	private int quilometragem;
-	
-// metodo construtor (Cadastrar Carro) {
-	
+
+	// metodo construtor (Cadastrar Carro) {
+
 	public Carro(String tipoVeiculo, String marca, String modelo, int ano, Float valor, String condicao,
 			String descricao, String cor, String cambio, int quilometragem) {
 		super(tipoVeiculo, marca, modelo, ano, valor, condicao);
@@ -19,8 +20,13 @@ public class Carro extends Veiculo {
 		this.cambio = cambio;
 		this.quilometragem = quilometragem;
 	}
-	
-// metodos acessores (gets e sets)
+
+	// Sobrecarga Metodo toString
+	public String toString() {
+		return getTipoVeiculo() + "Marca "+ getMarca() ;
+	}
+
+	// metodos acessores (gets e sets)
 
 	public String getDescricao() {
 		return descricao;
@@ -53,34 +59,5 @@ public class Carro extends Veiculo {
 	public void setQuilometragem(int quilometragem) {
 		this.quilometragem = quilometragem;
 	}
-	
-// Metodos editar e deletar 
-	
-	public void deletarVeiculo () {
-			
-	}
-	public void editarVeiculo () {
-				
-	}
 
-// Metodos de filtragem () {
-	
-	public void filtarQuilometragem () {
-		
-	}
-// Metodo teste
-
-	public void ApresentarCarro() {
-			System.out.print("========================== Lista de Carros===================================\n");
-			System.out.print("TIPO: " + this.getTipoVeiculo() + "\n");
-			System.out.print("MARCA: " + this.getMarca() + "\n");
-			System.out.print("MODELO: " + this.getModelo() + "\n");
-			System.out.print("ANO: " + this.getAno() + "\n");
-			System.out.print("VALOR " + this.getValor()  +"\n");
-			System.out.print("CONDIÇÃO: " + this.getCondicao() + "\n");
-			System.out.print("DESCRIÇÃO: " + this.getDescricao() + "\n");
-			System.out.print("COR: " + this.getCor() + "\n");
-			System.out.print("CAMBIO: " + this.getCambio() + "\n");
-			System.out.print("QUILOMETRAGEM: " + this.getQuilometragem() + "\n\n");
-		}
 }

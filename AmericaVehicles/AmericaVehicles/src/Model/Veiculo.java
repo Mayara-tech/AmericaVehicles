@@ -22,6 +22,8 @@ public abstract class Veiculo {
 		this.valor = valor;
 		this.condicao = condicao;
 	}
+	
+	
 // Metodos Acessores (gets e sets)
 
 	public String getTipoVeiculo() {
@@ -71,28 +73,5 @@ public abstract class Veiculo {
 	public void setCondicao(String condicao) {
 		this.condicao = condicao;
 	}
-	
-// Metodos editar e deletar 
-	
-	public void deletarVeiculo () {
-		
-	}
-	public void editarVeiculo () {
-			
-	}
 
-// Metodos de filtragem
-	
-	public void filtrarMarca () {
-		
-	}
-	public void filtrarModelo() {
-		
-	}
-	public void filtrarAno() {
-		
-	}
-	public void filtrarCondicao() {
-		
-	}
 }

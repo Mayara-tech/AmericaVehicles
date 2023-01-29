@@ -60,13 +60,6 @@ public class Vendedor extends Pessoa {
 	public void editar () {
 		
 	}
+
 	
-// Metodos de buscar e vender
-	
-	public void buscarVendedor () {
-		
-	}
-	public void venderVeiculo () {
-		
-	}
 }

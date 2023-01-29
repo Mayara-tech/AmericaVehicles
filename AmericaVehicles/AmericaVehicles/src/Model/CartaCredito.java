@@ -57,13 +57,4 @@ public class CartaCredito {
 	public void editarPagamento () {
 				
 	}
-
-// Metodos Simulador e Comprar () {
-		
-	public void simularcompraCarta () {
-			
-	}
-	public void comprarCarta ( ) {
-		
-	}
 }

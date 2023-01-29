@@ -62,13 +62,4 @@ public class Financiamento {
 				
 	}
 
-// Metodos Simulador e Comprar () {
-			
-	public void simularcompraFinanciamento () {
-			
-	}
-	public void comprarFinanciamento ( ) {
-		
-	}
-
 }

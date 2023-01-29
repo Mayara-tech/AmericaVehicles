@@ -52,13 +52,4 @@ public Moto(String tipoVeiculo, String marca, String modelo, int ano, Float valo
 	public void editarVeiculo () {
 				
 	}
-
-// Metodos de filtragem
-	
-	public void filtrarTipoMoto () {
-		
-	}
-	public void filtrarCilindrada () {
-		
-	}
 }
